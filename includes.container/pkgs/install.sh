@@ -7,3 +7,4 @@ apt-get install -y libfuse2t64
 
 # DisplayLink Support
 apt-get install -y /pkgs/synaptics-repository-keyring.deb
+apt-get install -y displaylink-driver
