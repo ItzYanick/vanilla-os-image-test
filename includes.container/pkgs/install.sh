@@ -8,4 +8,4 @@ apt-get install -y libfuse2t64
 # DisplayLink Support
 apt-get install -y dkms libdrm-dev
 unzip /pkgs/DisplayLink_6.1_amd64.zip -d /pkgs
-bash /pkgs/displaylink-driver-6.1.0-17.run
+SYSTEMINITDAEMON=systemd bash /pkgs/displaylink-driver-6.1.0-17.run
