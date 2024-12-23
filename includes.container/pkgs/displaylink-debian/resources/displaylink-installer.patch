@@ -1,0 +1,15 @@
+--- displaylink-installer.sh
++++ displaylink-installer.sh
+@@ -212,9 +212,9 @@
+   evdi_success_message
+   printf '%s\n\n' "DisplayLink driver installed successfully."
+ 
+-  if evdi_requires_reboot && prompt_yes_no "Do you want to reboot now?"; then
+-     reboot
+-  fi
++#  if evdi_requires_reboot && prompt_yes_no "Do you want to reboot now?"; then
++#     reboot
++#  fi
+ 
+   exit 0
+ }
