@@ -8,4 +8,4 @@ apt-get install -y libfuse2t64
 # DisplayLink Support
 apt-get install -y /pkgs/synaptics-repository-keyring.deb
 apt-get update
-apt-get install -y displaylink-driver
+apt-get install -y evdi-dkms displaylink-driver
