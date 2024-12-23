@@ -11,4 +11,4 @@ apt-get install -y dkms libdrm-dev
 # SYSTEMINITDAEMON=systemd bash /pkgs/displaylink-driver-6.1.0-17.run
 apt-get install -y /pkgs/synaptics-repository-keyring.deb
 apt-get update
-apt-get install displaylink-driver
+apt-get install -y displaylink-driver
